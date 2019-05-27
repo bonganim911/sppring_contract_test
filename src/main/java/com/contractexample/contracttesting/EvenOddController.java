@@ -1,4 +1,4 @@
-package com.contractTestingExapmple.contractTesting;
+package com.contractexample.contracttesting;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -9,6 +9,8 @@ public class EvenOddController {
 
     @GetMapping("/validate/prime-number")
     public String isNumberPrime(@RequestParam("number") Integer number){
-        return number % 2 == 0 ? "Even" : "Odd";
+
+        String result = number % 2 == 0 ? "Even" : "Odd";
+        return "{\"results\": \"" + result + "\"}";
     }
 }

@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Odd Even Controller",
+  "description": "Controller",
+  "type": "object",
+  "properties": {
+    "results": {
+      "description": "The result from the query",
+      "type": "string"
+    },
+    "value": {
+      "description": "This is some dummy value",
+      "type": "integer"
+    }
+  },
+  "required": ["results"]
+}

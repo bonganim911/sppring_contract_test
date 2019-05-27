@@ -2,20 +2,18 @@ package contracts
 import org.springframework.cloud.contract.spec.Contract
 
 Contract.make {
-    description "should return even when the number input is even"
+    description "should return odd when the number input is odd"
     request {
         method GET()
         url("/validate/prime-number") {
             queryParameters {
-                parameter("number", "2")
+                parameter("number", "3")
             }
         }
     }
 
     response {
-        body("{\"results\": \"Even\"}")
+        body("{\"results\": \"Odd\"}")
         status 200
     }
 }
-
-

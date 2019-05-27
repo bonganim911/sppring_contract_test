@@ -1,4 +1,4 @@
-package com.contractTestingExapmple.contractTesting;
+package com.contractexample.contracttesting;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

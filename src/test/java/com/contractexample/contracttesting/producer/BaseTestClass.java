@@ -1,6 +1,6 @@
-package com.contractTestingExapmple.contractTesting.producer;
+package com.contractexample.contracttesting.producer;
 
-import com.contractTestingExapmple.contractTesting.EvenOddController;
+import com.contractexample.contracttesting.EvenOddController;
 import io.restassured.module.mockmvc.RestAssuredMockMvc;
 import org.junit.Before;
 import org.junit.runner.RunWith;
